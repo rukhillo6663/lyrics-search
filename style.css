@@ -43,7 +43,7 @@ header::after {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 header * {
@@ -79,6 +79,14 @@ form button {
     font-size: 16px;
     border-radius: 50px;
 }
+#more button {
+    background-color: #8d56fd;
+    border: 0;
+    color: white;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 50px;
+}
 
 .btn {
     background-color: #8d56fd;
@@ -99,6 +107,7 @@ form button {
     justify-content: space-between;
     margin: 10px 0;
 }
+
 .container {
     margin: 30px auto;
     max-width: 100%;
@@ -106,6 +115,6 @@ form button {
 }
 
 .centered {
-    display: flex; 
+    display: flex;
     justify-content: center;
 }
